@@ -1,0 +1,61 @@
+/**
+ * User: jmay
+ * Date: Dec 8, 2011
+ * Time: 1:44:55 PM
+ */
+
+*.loadicon-container {
+    position: relative;
+}
+
+*.loadicon {
+    background: url('ajax-loader.gif') no-repeat center transparent;
+    opacity: .5;
+    display: none;
+    vertical-align: middle;
+    top: auto;
+    left: auto;
+    width: 20px;
+    height: 20px;
+}
+
+*.loadicon-after {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -25px;
+}
+
+*.loadicon-before {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -25px;
+}
+
+*.loadicon-left {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+*.loadicon-right {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+*.loadicon-over {
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
